@@ -6,7 +6,9 @@ from openai import OpenAI
 
 load_dotenv()
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+api_key = os.getenv("OPENAI_API_KEY") or st.secrets.get("OPENAI_API_KEY")
+
+client = OpenAI(api_key=api_key)
 
 st.set_page_config(
     page_title="AI Customer Success Risk Copilot",
