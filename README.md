@@ -1,5 +1,20 @@
 # AI Customer Success Risk Copilot
 
+## Application Screenshots
+
+### Dashboard Overview
+![Dashboard Overview](screenshots/dashboard%20landing%20page.png)
+
+### Customer Selection + Risk Analysis
+![Risk Analysis](screenshots/rule%20based%20risk%20score.png)
+
+### AI Executive Summary + Churn Analysis
+![AI Analysis](screenshots/AI%20overview%20-%20exec%20summary%20and%20churn.png)
+
+### Follow-Up Email Generation
+![Email Suggestion](screenshots/Follow%20up%20email%20suggestion.png)
+
+
 AI-powered customer success dashboard built with Python, Streamlit, and OpenAI APIs.
 
 ## Overview
